@@ -15,28 +15,28 @@ body{
     justify-content: space-between;
 }
 .search input{
-   border: 0;
-   outline: 0;
-   background: #ebfffc;
-   color: #555;
-   padding: 10px 0px 10px 22px ;
-   height: 60px;
-   border-radius: 30px;
-   flex: 1;
-   margin-right: 7px;
-   font-size: 18px;
-   width: 55vw;
-   margin-left: -7px;
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 0px 10px 22px;
+    height: 3.2rem;
+    border-radius: 2rem;
+    flex: 1;
+    margin-right: 0.3rem;
+    font-size: 18px;
+    width: 55vw;
+    margin-left: -0.8rem;
 
 }
 .search button{
     border: 0;
     outline: 0;
     background: #ebfffc;
-    border-radius: 30px;
+    border-radius: 2rem;
     padding: 10px;
-    width: 60px;
-    height: 60px;
+    width: 3.2rem;
+    height: 3.2rem;
     cursor: pointer;
 }
 .search button img {
