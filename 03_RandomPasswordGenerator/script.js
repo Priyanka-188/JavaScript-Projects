@@ -27,6 +27,7 @@ btn.addEventListener("click",(e)=>{
 
 copyPassword.addEventListener("click",function(e){
     input.select();
-    document.execCommand("copy");
+    input.setSelectionRange(0, 99999);
+    navigator.clipboard.writeText(input.value);
 
 })
