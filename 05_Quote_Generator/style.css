@@ -13,8 +13,8 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 50%;
-    margin-left:25% ;
+    width: 80%;
+    margin-left:10% ;
     background-color: rgb(245, 249, 247);
     border-radius: 1rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
