@@ -8,13 +8,12 @@ body{
 }
 
 .quote-box{
-    
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 80%;
-    margin-left:10% ;
+    width: 50%;
+    margin-left: 25%;
     background-color: rgb(245, 249, 247);
     border-radius: 1rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -25,17 +24,20 @@ body{
 }
 
 blockquote{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 span{
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 }
+h1{
+    text-align: center;
+}
 
 .button-box{
-    margin: 1rem 0 1.5rem 0;
+    margin: 1rem 0.5rem 1.5rem 0.5rem;
    
 }
 
@@ -64,3 +66,10 @@ button:hover{
     color: white;
     background-color: blue;
 }
+
+@media only screen and (max-width: 400px) {
+    .quote-box {
+        width: 81%;
+        margin-left: 10%;
+    }
+  }
