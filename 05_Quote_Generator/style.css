@@ -70,6 +70,7 @@ button:hover{
 @media only screen and (max-width: 400px) {
     .quote-box {
         width: 81%;
-        margin-left: 10%;
+        margin-left: 6%;
+        padding: 0px 13px;
     }
   }
