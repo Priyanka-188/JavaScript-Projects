@@ -60,3 +60,10 @@ img{
     margin-top: 1.3vh;
     padding: 0.4rem;
 }
+
+@media only screen and (max-width:400px){
+    .container{
+        width: 75vw;
+    min-height: 30vh;
+    }
+}
