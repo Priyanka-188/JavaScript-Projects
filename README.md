@@ -14,3 +14,6 @@ https://priyanka-188.github.io/JavaScript-Projects/04_notes_App
 
 ### 5. Quote Generator
 https://priyanka-188.github.io/JavaScript-Projects/05_Quote_Generator
+
+### 6. QR Code Generator
+https://priyanka-188.github.io/JavaScript-Projects/07_QRcode_Generator
