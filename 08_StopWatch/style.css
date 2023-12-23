@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+
+img{
+    height: 10vh;
+}
+img:nth-child(2){
+    height: 9vh;
+}
+#heading{
+    text-decoration: underline;
+    position: relative;
+    top: 20vh;
+    left: 22vw;
+}
+
+.container{
+    border: 0.5px solid white;
+    border-radius: 1rem;
+    width: 35%;
+    height: 55vh;
+    position: relative;
+    top: 20vh;
+    left: 13vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    letter-spacing: 0.1em;
+    
+}
+.buttons img{
+    margin: 0.5rem ;
+}
